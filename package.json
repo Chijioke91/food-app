@@ -1,0 +1,15 @@
+{
+  "name": "cjay-food",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "keywords": [],
+  "author": "Godisgreat",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^1.4.6"
+  }
+}
