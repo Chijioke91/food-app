@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:css": "tailwindcss build src/styles.css -o public/styles.css"
+    "build:css": "postcss build src/styles.css -o public/styles.css",
+    "watch:css": "postcss build src/styles.css -o public/styles.css --watch"
   },
   "keywords": [],
   "author": "Godisgreat",
   "license": "MIT",
   "dependencies": {
     "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.4",
+    "postcss-cli": "^7.1.1"
   }
 }
