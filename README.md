@@ -1,6 +1,6 @@
 # Simple Food Application With TailwindCss
 
-> This is a simple food application built as part of a learning of the tailwind css framework
+> This is a simple food application built as part of learning of the tailwind css framework
 
 ## Install Dependencies
 
